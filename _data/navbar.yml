@@ -1,0 +1,12 @@
+
+items:
+  - name: Home
+    link: /
+  - name: News 3
+    link: /news
+  - name: Upcoming learning events
+    link: /events
+  - name: About the program
+    link: /about    
+  - name: Contact us
+    link: /contact

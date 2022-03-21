@@ -1,0 +1,31 @@
+backend:
+  name: github
+  repo: ACGWeb/acg-web-cms
+
+media_folder: "img/uploads"
+collections:
+  - name: "website-settings"
+    label: "Website settings"
+    files:
+      - label: "Website settings"  
+        name: "site"
+        file: "_data/site.yml"
+        fields:
+          - label: "About title"
+            name: "about"
+            widget: "string"
+  - name: 'config'
+    label: 'Config'
+    editor:
+      preview: false
+    files:
+      - label: 'Navigation'
+        name: 'navigation'
+        file: '_data/navbar.yml'
+        fields:
+          - label: 'Navigation Items'
+            name: 'items'
+            widget: 'list'
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Link, name: link, widget: string }

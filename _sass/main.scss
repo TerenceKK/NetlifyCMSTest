@@ -1,0 +1,47 @@
+$backgroundColor: var(--white);
+$bodyColor: #000000;
+
+:root {
+  --black: #000;
+  --white: #fff;
+  --teal-teal-100: #25a2bf;
+  --teal-teal-20: #f0f6f7;
+  --navy-blue-navy-20: #f0f2f7;
+  --green-green-100: #7e9e39;
+  --orange-orange-100: #eb710e;
+  --navy-blue-navy-100: #122674;
+  --navy-blue-navy-50: #8690b8;
+  --pink-pink-100: #de1b80;
+  --purple-purple-100: #7a3379;
+  --navy-blue-navy-150: #0f123a;
+  --grey-grey-150: #474747;
+  --grey-grey-100: #828282;
+  --grey-grey-80: #bdbdbd;
+  --grey-grey-50: #c4c4c4;
+  --grey-grey-25: #d7d7d7;
+  --blue-blue-100: #0c5cb5;
+}
+
+body {
+  background: $backgroundColor;
+  color: $bodyColor;
+}
+
+.home-banner {
+    background-color: var(--navy-blue-navy-100);
+    color: var(--white);
+}
+
+.header {
+  line-height: 1;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.header-logo {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  font-size: 2.25rem;
+}
+
+.header-logo:hover {
+  text-decoration: none;
+}
