@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: ACGWeb/acg-web-cms
+  repo: TerenceKK/NetlifyCMSTest
 
 media_folder: "img/uploads"
 collections:
